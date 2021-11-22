@@ -1,0 +1,8 @@
+a=set(map(str,input("dati elementele sir 1=").split()))
+b=set(map(str,input("dati elementele sir 2=").split()))
+c=sorted(a.union(b))
+d=sorted(a.intersection(b))
+e=sorted(a.difference(b))
+print("caracterele care apar cel putin intr-un sir=",c)
+print("caracterele care apar in ambele siruri (elemente comune)=",d)
+print("caracterele ce apar doar in primul sir=",e)
